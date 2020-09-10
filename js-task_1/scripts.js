@@ -55,3 +55,13 @@ let a1 = 5 % 3; // Задание 2
     console.log (a16, typeof a16);
     console.log (a17, typeof a17);
     console.log (a18, typeof a18);
+
+    let h = 10; // Задание 3
+        p = 3.1415;
+        r = a7;
+        r2 = a7 * a7;
+        v = p * r2 * h;
+        VCilindra = v;
+    console.log (VCilindra);
+
+     

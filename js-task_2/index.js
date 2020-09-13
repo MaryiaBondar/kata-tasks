@@ -12,18 +12,18 @@ document.write(''+ name +' родился в '+ birth +' году.');
 let t1 = 3; // Пункт 3
     t2 = 2;
     t3 = 5;
-    b1 = 2;
-    b2 = 5;
-    b3 = 4;
+    e1 = 2;
+    e2 = 5;
+    e3 = 4;
     t = t1 + t2 + t3;
-    b = b1 + b2 + b3;
-if (t == b) {
+    e = e1 + e2 + e3;
+if (t == e) {
     console.log('да');
 }
-else if (t > b) {
+else if (t > e) {
     console.log('нет');
 }
-else if(t < b) {
+else if(t < e) {
     console.log('нет');
 }
 
@@ -31,7 +31,7 @@ let a = 1;         // Пункт 4
 if (a < 0) {
     console.log('Неверно');
 }
-else if (a = 0) {
+else if (a == 0) {
     console.log('Неверно');
 }
 else if (a > 0) {

@@ -9,21 +9,32 @@ document.write('Меня зовут '+ name +'. Мне '+ age +' лет.<br> Я 
 let birth = 2020 - age; // Пункт 2
 document.write(''+ name +' родился в '+ birth +' году.');
 
-let a1 = 3; // Пункт 3
-    a2 = 2;
-    a3 = 5;
+let t1 = 3; // Пункт 3
+    t2 = 2;
+    t3 = 5;
     b1 = 2;
     b2 = 5;
     b3 = 4;
-    a = a1 + a2 + a3;
+    t = t1 + t2 + t3;
     b = b1 + b2 + b3;
-if (a == b) {
-    console.log('true');
+if (t == b) {
+    console.log('да');
 }
-else if (a > b) {
-    console.log('false');
+else if (t > b) {
+    console.log('нет');
 }
-else if(a < b) {
-    console.log('false');
+else if(t < b) {
+    console.log('нет');
+}
+
+let a = 1;         // Пункт 4
+if (a < 0) {
+    console.log('Неверно');
+}
+else if (a = 0) {
+    console.log('Неверно');
+}
+else if (a > 0) {
+    console.log('Верно');
 }
     

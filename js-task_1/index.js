@@ -36,18 +36,29 @@ console.log(a15, typeof a15);
 console.log(a17, typeof a16);
 console.log(a16, typeof a17);
 
+        let h = 10; 
+        p = 3.1415;
+        r = a7;
+        r2 = a7 * a7;
+        v = p * r2 * h;
+        VCilindra = v;
+    console.log (VCilindra);
 
-  VCilindra = 3.14 * 10 * a7 * a7 /4;
-  console.log(VCilindra);
-  SKruga = 3.14 * 5 * 5;
+
+    let r = 5; 
+    r2 = r * r;
+    s = p * r2;
+    SKruga = s;
   console.log(SKruga);
-  STrap = 0.5 * 10 * (5 + 7);
-  console.log(STrap);
-  ur1 = (-45 - 8) / (3+6)
-console.log(ur1);
-ur2 = 23780 / (2 + 8 + 3);
-console.log(ur2);
 
+  let a = 5;
+  b = 7;
+  h = 10;
+  s = 0.5 * h (a +b);
+   STrap =s
+  console.log(STrap);
+
+  
 let text = 'индо земля зашаталась под ногами-и вырос',
     text2 = 'и заревел он голосом диким...',
     text3 = 'блеснула молния и ударил гром,',

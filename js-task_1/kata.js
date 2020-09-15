@@ -1,11 +1,17 @@
 function greet(name){
-    return /* строка с именем */
-  }
+    return `Hello, ${name} how are you doing today?`
+}
 
 const areaOrPerimeter = function(l , w) {
-    return /* формула */
+    if(l==w) {
+        return l*w
+    } else {
+        return 2*(l+w)
+    }
 };
 
 function dutyFree(normPrice, discount, hol){
-    return Math.floor(/* формула */)
-  }
+    // const priceWithDiscount = //
+    return Math.floor(hol / normPrice * (1-(discount/100)))
+}
+

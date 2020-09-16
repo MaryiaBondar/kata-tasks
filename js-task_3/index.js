@@ -13,14 +13,10 @@ while (e >= 11) {
     e--;
 }
 // Задание 3 
-let a = 100;
 let sum = 0;
-for (let r = 0; r <= a; r++) {
-    sum = 0;
-    for (let j = 1; j <= r; j++) {
-        sum +=j;
-    }
-    console.log('Sum' + r + ' = ' + sum);
+for (let i = 0; i <= 100; i++) {
+    sum += i;
+    console.log(sum);
 }
 // Задание 4 
 let b = 5;
@@ -31,4 +27,9 @@ for (let u = 1; u <= b; u++) {
         sum1 +=y;
     }
     console.log('Sum' + u + ' = ' + sum1);
+}
+// Задание 5
+for (i = 8; i <= 56; i++) {
+    if (i % 2 == 0)
+    console.log(i);
 }

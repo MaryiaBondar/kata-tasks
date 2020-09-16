@@ -22,3 +22,13 @@ for (let r = 0; r <= a; r++) {
     }
     console.log('Sum' + r + ' = ' + sum);
 }
+// Задание 4 
+let b = 5;
+let sum1 = 0;
+for (let u = 1; u <= b; u++) {
+    sum1 = 0;
+    for (let y = 1; y <= u; y++) {
+        sum1 +=y;
+    }
+    console.log('Sum' + u + ' = ' + sum1);
+}

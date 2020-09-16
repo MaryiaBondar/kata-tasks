@@ -61,4 +61,13 @@ for ( i=1; i<=10; i++) {
 for ( i=1; i<=10; i++) {
     document.write ("10*" + i + "=" + 10*i + '<br>');
 }
+// Задание 7 
 
+let n = 1000;
+    num = 0;
+while (n >=50) {
+    n /= 2;
+    num++;
+    console.log('Результат деления:' + n + '<br>'/n);
+    console.log('Количество итераций:' + num + '<br>'/n);
+}

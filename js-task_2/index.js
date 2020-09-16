@@ -27,12 +27,12 @@ if (a1 + b1 + c1 == d1 + f1 + g1) {
 } else {
     document.write('<strong>Не верно</strong><br><hr>');
 }
-*/
+
 
 //task_4
 
-let a;
-if (a > 0) {
+let a3;
+if (a3 > 0) {
     document.write('Верно <hr>')
 } else {
     document.write('Не верно <hr>')
@@ -40,6 +40,24 @@ if (a > 0) {
 //task_5
 document.write(`<h1><font color="red">Task_5</font></h1>`)
 
+let a = 10,
+    b = 2;
+if (a + b > 1) {
+    document.write(Math.pow((a + b), 2))
+}
+    document.write(`<br>${a+b}<br>${a-b}<br>${a*b}<br>${a/b}`)
+  
+//task_6
 
+document.write(`<hr><h1><font color="red">Task_6</font></h1>`)
+
+let a=0, b=2;
+if (a > 2 && a < 11 || b >= 6 && b < 14) {
+
+    document.write('Верно');
+}else {
+    document.write('Не верно');
+}
+*/
 
 

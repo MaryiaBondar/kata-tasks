@@ -1,5 +1,5 @@
 //task_1
-
+/*
     for (let i = 1; i < 50; i++)console.log(i);
        
        
@@ -40,10 +40,14 @@ for (let i = 8; i < 56; i++) {
     console.log(i);
 }
 
-
+*/
 //task_6
+for (let i = 2; i <= 10; i++)
+    {   for (let d = 2; d <= 10; d++) 
+     console.log( i + ' * ' + d + ' = ' + (i*d));  }
 
 
+/*
 //task_7
 
 
@@ -56,12 +60,7 @@ while (n > 50) {
     console.log(n)
     console.log(iteration)
 }
-
-
-
-
-
-
+*/
 
 
 

@@ -1,5 +1,5 @@
 //task_1
-/*
+
 let name = prompt("Ваше имя"),
     age = prompt("Ваш возраст"),
     city = prompt("Ваш город"),
@@ -30,7 +30,7 @@ if (a1 + b1 + c1 == d1 + f1 + g1) {
 
 
 //task_4
-
+document.write(`<h1><font color="red">Task_4</font></h1>`)
 let a3;
 if (a3 > 0) {
     document.write('Верно <hr>')
@@ -51,13 +51,13 @@ if (a + b > 1) {
 
 document.write(`<hr><h1><font color="red">Task_6</font></h1>`)
 
-let a=0, b=2;
-if (a > 2 && a < 11 || b >= 6 && b < 14) {
+let a11=0, b11=2;
+if (a11 > 2 && a11 < 11 || b11 >= 6 && b11 < 14) {
 
     document.write('Верно');
 }else {
     document.write('Не верно');
 }
-*/
+
 
 

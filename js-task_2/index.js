@@ -1,4 +1,4 @@
-et name = prompt('Ваше имя?');
+name = prompt('Ваше имя?');
 console.log(name);
 let age = prompt('Возраст?',);
 console.log(age);

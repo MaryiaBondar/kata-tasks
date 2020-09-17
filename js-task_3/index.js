@@ -1,5 +1,5 @@
 //task_1
-/*
+
     for (let i = 1; i < 50; i++)console.log(i);
        
        
@@ -11,7 +11,7 @@ while (a>11) {
     document.write(`${a}<br>`);
     a--;    
 }
-*/
+
 //task_3
 let sum = 0,
     b = 1;
@@ -40,7 +40,24 @@ for (let i = 8; i < 56; i++) {
     console.log(i);
 }
 
+
 //task_6
+
+
+//task_7
+
+
+let n = 1000,
+    iteration = 0;
+
+while (n > 50) {
+    n =n / 2 ;
+    iteration++;
+    console.log(n)
+    console.log(iteration)
+}
+
+
 
 
 

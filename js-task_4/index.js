@@ -13,7 +13,7 @@ for (let i = 0; i < arr1.length; i++) {
 }
 
 //task_3
-*/
+
 let arr2 = [],
     result = 0;
 for (let i = 23; i < 58; i++) {
@@ -33,3 +33,11 @@ for (let i=0 ; i < arr2.length; i++) {
 console.log(arr3)
 console.log(arr2)
 console.log(`sum = `+result)
+*/
+
+//task_4
+
+
+let arr4 =['10', '20', '30', '50', '235', '3000'],i=0;
+
+

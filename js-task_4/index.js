@@ -42,23 +42,26 @@ for (let i = 0; i <= arr3.length -1; i++) {
     arr4.push(+arr3[i])
 }
 console.log(typeof arr4, arr4.filter(num=>['1','2','5'].includes(num.toString()[0])))
-*/
+
 //task_5
 
 let x = 'ПН, ВТ, СР, ЧТ, ПТ, СБ, ВС',
     arr6 = x.split(', '),
     arr7 = [0],
-    arr8=[0] ;
+    arr8 = [0];
 for (let i = 0; i < arr6.length; i++) {
     arr7.push(arr6[i])
 }
-
-for (let i = 1; i <= arr7.length - 1; i++) {
-if (arr7.length-1==i || arr7.length-2==i)
-    console.log(`${arr7[i]}<br>`)    
-} 
-for (let i = 0; i < arr7.length-2; i++) {
+for (let i = 1; i < arr7.length - 2; i++) {
     arr8.push(arr7[i])
-    
+    document.write(`${arr8[i]}<br>`);
 }
-console.log(`${arr7}<br>`);
+for (let i = 1; i <= arr7.length - 1; i++) {
+    if (arr7.length - 1 == i || arr7.length - 2 == i)
+        document.write(`<font color="red"><strong>${arr7[i]}</strong></font><br>`)
+} 
+*/
+//task_6
+
+let myarr=[1, 2, 3, 4, 5],
+    b;

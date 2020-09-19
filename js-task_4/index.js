@@ -33,11 +33,32 @@ for (let i=0 ; i < arr2.length; i++) {
 console.log(arr3)
 console.log(arr2)
 console.log(`sum = `+result)
+
+
+// Task_4
+let arr4 = [],
+    arr3 = ['10', '20', '30', '50', '235', '3000'];
+for (let i = 0; i <= arr3.length -1; i++) {   
+    arr4.push(+arr3[i])
+}
+console.log(typeof arr4, arr4.filter(num=>['1','2','5'].includes(num.toString()[0])))
 */
+//task_5
 
-//task_4
+let x = 'ПН, ВТ, СР, ЧТ, ПТ, СБ, ВС',
+    arr6 = x.split(', '),
+    arr7 = [0],
+    arr8=[0] ;
+for (let i = 0; i < arr6.length; i++) {
+    arr7.push(arr6[i])
+}
 
-
-let arr4 =['10', '20', '30', '50', '235', '3000'],i=0;
-
-
+for (let i = 1; i <= arr7.length - 1; i++) {
+if (arr7.length-1==i || arr7.length-2==i)
+    console.log(`${arr7[i]}<br>`)    
+} 
+for (let i = 0; i < arr7.length-2; i++) {
+    arr8.push(arr7[i])
+    
+}
+console.log(`${arr7}<br>`);

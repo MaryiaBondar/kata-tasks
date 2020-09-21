@@ -47,7 +47,7 @@ for (i = 8; i <= 56; i++) {
 
 for ( i=2; i<=10; i++) {
     for (let b=2; b<=10; b++)
-    document.write (i + " * " + b + " = " + (i * b));
+        document.write (i + " * " + b + " = " + (i * b));
 }
 
 

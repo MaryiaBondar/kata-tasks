@@ -35,9 +35,27 @@ console.log(`sum = `+result)
 
 // Задание 4
 
-let arr4 = [],
+let arr4 = [];
     arr3 = ['10', '20', '30', '50', '235', '3000'];
 for (let i = 0; i <= arr3.length -1; i++) {   
     arr4.push(+arr3[i])
 }
 console.log(typeof arr4, arr4.filter(num=>['1','2','5'].includes(num.toString()[0])))
+
+// Задание 5
+
+let x = 'ПН, ВТ, СР, ЧТ, ПТ, СБ, ВС',
+    arr6 = x.split(', '),
+    arr7 = [0],
+    arr8 = [0];
+for (let i = 0; i < arr6.length; i++) {
+    arr7.push(arr6[i])
+}
+for (let i = 1; i < arr7.length - 2; i++) {
+    arr8.push(arr7[i])
+    document.write(`${arr8[i]}<br>`);
+}
+for (let i = 1; i <= arr7.length - 1; i++) {
+    if (arr7.length - 1 == i || arr7.length - 2 == i)
+        document.write(`<font color="red"><strong>${arr7[i]}</strong></font><br>`)
+} 

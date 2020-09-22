@@ -68,7 +68,7 @@ console.log(arr6[arr6.length - 1]);*/
 
 // Задание 7
 
-let arr7 = [];
+/*let arr7 = [];
 let e;
 let arr7Nums;
 
@@ -83,4 +83,9 @@ console.log(arr7);
 arr7Nums = arr7.sort(function(A,B) {
     return A - B;
 });
-console.log(arr7Nums);
+console.log(arr7Nums); */
+
+// Задание 8
+
+let arr8 = [12, false, 'Текст', 4, 2, -5, 0];
+console.log(arr8.reverse());

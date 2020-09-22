@@ -60,8 +60,20 @@ for (let i = 1; i <= arr7.length - 1; i++) {
     if (arr7.length - 1 == i || arr7.length - 2 == i)
         document.write(`<font color="red"><strong>${arr7[i]}</strong></font><br>`)
 } 
-*/
+
 //task_6
 
-let myarr=[1, 2, 3, 4, 5],
-    b;
+let myarr=[1, 2, 3, 4, 5];
+    myarr.push(6)
+    console.log(myarr)
+    for (let i = 0; i < myarr.length; i++) {
+        if (i<myarr.length-1) {            
+        }
+        else{
+            console.log(myarr[i])
+        }
+        
+    }
+    */
+   
+    //task_7

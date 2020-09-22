@@ -1,20 +1,20 @@
 // Задание 1
 
-let arr = [1, 2, 3, 4, 5]
-for (let i = 0; i < arr.length; i++) console.log(arr[i]);
+/*let arr = [1, 2, 3, 4, 5]
+for (let i = 0; i < arr.length; i++) console.log(arr[i]);  */
 
 // Задание 2
 
-let arr1 = [-2, -1, -3, 15, 0, -4, 2, -5, 9, -15, 0, 4, 5, -6, 10, 7]
+/*let arr1 = [-2, -1, -3, 15, 0, -4, 2, -5, 9, -15, 0, 4, 5, -6, 10, 7]
 for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] < 0 && arr1[i] > -10 && arr1[i] < -3) {
         console.log(arr1[i])
     }
-}
+}*/
 
 // Задание 3
 
-let arr2 = [],
+/*let arr2 = [],
     result = 0;
 for (let i = 23; i < 58; i++) {
     arr2.push(i);    
@@ -31,20 +31,20 @@ for (let i=0 ; i < arr2.length; i++) {
 }
 console.log(arr3)
 console.log(arr2)
-console.log(`sum = `+result)
+console.log(`sum = `+result)*/
 
 // Задание 4
 
-let arr4 = [];
+/*let arr4 = [];
     arr3 = ['10', '20', '30', '50', '235', '3000'];
 for (let i = 0; i <= arr3.length -1; i++) {   
     arr4.push(+arr3[i])
 }
-console.log(typeof arr4, arr4.filter(num=>['1','2','5'].includes(num.toString()[0])))
+console.log(typeof arr4, arr4.filter(num=>['1','2','5'].includes(num.toString()[0]))) */
 
 // Задание 5
 
-let x = 'ПН, ВТ, СР, ЧТ, ПТ, СБ, ВС',
+/*let x = 'ПН, ВТ, СР, ЧТ, ПТ, СБ, ВС',
     arr6 = x.split(', '),
     arr7 = [0],
     arr8 = [0];
@@ -58,4 +58,29 @@ for (let i = 1; i < arr7.length - 2; i++) {
 for (let i = 1; i <= arr7.length - 1; i++) {
     if (arr7.length - 1 == i || arr7.length - 2 == i)
         document.write(`<font color="red"><strong>${arr7[i]}</strong></font><br>`)
-} 
+}*/
+
+// Задание 6
+
+/*let arr6 = ['Саша', 'Маша', 'Петя', 'Боря'];
+arr6.push('Коля');
+console.log(arr6[arr6.length - 1]);*/
+
+// Задание 7
+
+let arr7 = [];
+let e;
+let arr7Nums;
+
+while (e === undefined) {
+    e = prompt('Введите число');
+    if (e !== null && e !== '' && !isNaN(e)) {
+        arr7.push(Number(e));
+        e = undefined;
+    }
+}
+console.log(arr7);
+arr7Nums = arr7.sort(function(A,B) {
+    return A - B;
+});
+console.log(arr7Nums);

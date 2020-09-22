@@ -87,5 +87,24 @@ console.log(arr7Nums); */
 
 // Задание 8
 
-let arr8 = [12, false, 'Текст', 4, 2, -5, 0];
-console.log(arr8.reverse());
+/*let arr8 = [12, false, 'Текст', 4, 2, -5, 0];
+console.log(arr8.reverse());*/
+
+// Задание 9
+
+/*let arr9 = [5, 9, 21, , , 9, 78, , , , 6];
+let sumI = 0;
+for( let i = 0; i < arr9.length; i++) {
+    sumI += (arr9[i] === undefined) ? 1 : 0;
+    }
+ console.log(sumI);*/
+ 
+
+ // Задание 10
+
+ /*let arr10 = [48,9,0,4,21,2,1,0,8,84,76,8,4,13,2];
+ let first = arr10.indexOf(0) + 1,
+     last = arr10.lastIndexOf(0);
+ let total;
+  total = arr10.splice(first, last - first).reduce((a, b) => a + b, 0);
+  console.log(total);*/

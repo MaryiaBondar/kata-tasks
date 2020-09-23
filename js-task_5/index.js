@@ -59,11 +59,11 @@ function pyramid(n, s) {
       let m = '';
       for (let j = 0; j < i; j++) {
         m += s == undefined || s == '' ? i : s;
-      };
-      console.log(m + '\n')
+      }
+      console.log(m + '\n');
     }
-  };
-  pyramid(prompt('число строк'), prompt('символ'))
+  }
+  pyramid(prompt('число строк'), prompt('символ'));
 
 
 // Задание 8

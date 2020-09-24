@@ -91,3 +91,12 @@
 // let i = 0;
 // recArrey([2, 5, 7, 8, 3, 2, 5, 7, 3, 1, 5, 3])
 
+
+
+//kata_9 
+
+function domainName(url){
+    x=url.replace('http://').replace('https://').replace('www.').replace('.com',).replace('.ru').replace('.com').replace('.co.jp',).split('undefined').slice(1, -1);
+     x=''+x
+     return x
+   }

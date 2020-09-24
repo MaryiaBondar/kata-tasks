@@ -16,9 +16,17 @@
 
 // Задание 3
 
-let a = prompt('число 1'),
-    b = prompt('число 2');
-    c = Math.max(a, b);
-    d = Math.min(a, b)
-console.log('max' + c);
-console.log('min' + d);
+// let a = prompt('число 1'),
+//     b = prompt('число 2');
+//     c = Math.max(a, b);
+//     d = Math.min(a, b)
+// console.log('max' + c);
+// console.log('min' + d);
+
+// Задание 5
+// function isEven(num) {
+//     if(num > 0 && num % 2 == 0) {
+//         return true;
+//     }else return false;
+// }    
+// console.log(isEven(12));

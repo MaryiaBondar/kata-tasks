@@ -40,14 +40,14 @@ for (let i = 8; i < 56; i++) {
     console.log(i);
 }
 
-*/
+
 //task_6
 for (let i = 2; i <= 10; i++)
     {   for (let d = 2; d <= 10; d++) 
      console.log( i + ' * ' + d + ' = ' + (i*d));  }
 
 
-/*
+
 //task_7
 
 
@@ -61,6 +61,28 @@ while (n > 50) {
     console.log(iteration)
 }
 */
+
+//task_8
+// let x=prompt();
+// console.log(x)
+let a = 0,
+    sum = 0,
+    b = 0;
+b = +prompt('Введите число')
+if (b == NaN) {
+    alert("Вы ввели не число")
+} else if (b != 0) {
+    let i = 0
+    while (true) {
+        b = +prompt('еще')
+        i++
+        sum += b
+        console.log('summa'+' '+sum)
+        if (b == 0) {
+            break;
+        }
+    }
+    }
 
 
 

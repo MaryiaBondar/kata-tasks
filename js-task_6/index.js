@@ -52,9 +52,13 @@
 // alert(date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ' ' + getZero(date.getDate()) + '.' + getZero(date.getMonth() + 1) + '.' + date.getFullYear());
 
 // Задача 7 
-let str = 'aa aba abba abbba abca abea';
-console.log(str.search(/aba/gi));
-console.log(str.search(/abba/gi));
-console.log(str.search(/abbba/gi));
+// let str = 'aa aba abba abbba abca abea';
+// console.log(str.search(/aba/gi));
+// console.log(str.search(/abba/gi));
+// console.log(str.search(/abbba/gi));
 
 // Задача 8 
+
+let phone = prompt('Ваш номер телефона?');
+let regexp = /[+375]&[017]{9}/gi;
+console.log(regexp.test(phone)); // Я пытался....

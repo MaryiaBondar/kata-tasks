@@ -21,7 +21,7 @@
 // console.log(str.slice(6,16));
 
 // Задание 4
-// let arr = [4,2,5,19,13,0,10];
+// let arr = [4, 2, 5,19 ,13 ,0 ,10];
 // let b = 0;
 // for(let i=0; i<arr.length; i++) {
 //     b+=Math.pow(arr[i],3);
@@ -52,6 +52,9 @@
 // alert(date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ' ' + getZero(date.getDate()) + '.' + getZero(date.getMonth() + 1) + '.' + date.getFullYear());
 
 // Задача 7 
-
+let str = 'aa aba abba abbba abca abea';
+console.log(str.search(/aba/gi));
+console.log(str.search(/abba/gi));
+console.log(str.search(/abbba/gi));
 
 // Задача 8 

@@ -1,4 +1,5 @@
 
+
 // Задание 1
 
 //  let f = function(a, b, c){
@@ -30,3 +31,4 @@
 //     }else return false;
 // }    
 // console.log(isEven(12));
+

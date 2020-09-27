@@ -53,17 +53,17 @@
 
 
 // Задание 7
-function pyramid(n, s) {
-    if (+n == NaN) return;
-    for (let i = 1; i <= n; i++) {
-      let m = '';
-      for (let j = 0; j < i; j++) {
-        m += s == undefined || s == '' ? i : s;
-      }
-      console.log(m + '\n');
-    }
-  }
-  pyramid(prompt('число строк'), prompt('символ'));
+// function pyramid(n, s) {
+//     if (+n == NaN) return;
+//     for (let i = 1; i <= n; i++) {
+//       let m = '';
+//       for (let j = 0; j < i; j++) {
+//         m += s == undefined || s == '' ? i : s;
+//       }
+//       console.log(m + '\n');
+//     }
+//   }
+//   pyramid(prompt('число строк'), prompt('символ'));
 
 
 // Задание 8
@@ -75,3 +75,9 @@ function pyramid(n, s) {
 //     }
 // }
 // arrCall(arr, 0);
+
+
+//Задание 11
+let email = 'd.sadoshenko@gmail.com';
+ let regexp = /[0-9a-zA-Z._-]{2,}@[._-a-zA-Z].[a-z]{2,11}/gi;
+ console.log(regexp.test(email));

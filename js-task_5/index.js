@@ -78,6 +78,6 @@
 
 
 //Задание 11
-let email = 'd.sadoshenko@gmail.com';
- let regexp = /[0-9a-zA-Z._-]{2,}@[._-a-zA-Z].[a-z]{2,11}/gi;
- console.log(regexp.test(email));
+// let email = 'd.sadoshenko@gmail.com';
+//  let regexp = /[0-9a-zA-Z._-]{2,}@[._-a-zA-Z].[a-z]{2,11}/gi;
+//  console.log(regexp.test(email));

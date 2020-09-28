@@ -16,7 +16,16 @@
 // let a3=[4, 2, 5, 19, 13, 0, 10],
 // sum=0;
 // for (let i = 0; i < a3.length; i++) {
-    
+
 //     sum+=Math.pow(a3[i],3)
 // }
 // console.log(Math.pow(sum,2))
+
+//task_5
+let a,b,c;
+function name(a,b) {
+if (a-b>=0) {
+        c=a-b}
+}
+name(8,6)
+console.log(c)

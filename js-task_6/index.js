@@ -8,8 +8,8 @@
 
 // //task_3
 // let a2='Я учу javascript!'
-// console.log(a2.slice(0,1)+a2.slice(16,17)+'---'+'Метод Slice')
-// console.log(a2.substring(0,1)+a2.substring(16,17)+'---'+'Метод substring')
+// console.log(a2.slice(2,16)+'---'+'Метод Slice')
+// console.log(a2.substring(2,16)+'---'+'Метод substring')
 // console.log('Substr устарел')
 
 // //task_4
@@ -21,11 +21,11 @@
 // }
 // console.log(Math.pow(sum,2))
 
-//task_5
-let a,b,c;
-function name(a,b) {
-if (a-b>=0) {
-        c=a-b}
-}
-name(8,6)
-console.log(c)
+////task_5
+// let a,b,c;
+// function name(a,b) {
+// if (a-b>=0) {
+//         c=a-b}
+// }
+// name(8,6)
+// console.log(c)

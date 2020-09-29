@@ -10,7 +10,7 @@
 // let a2='Я учу javascript!'
 // console.log(a2.slice(2,16)+'---'+'Метод Slice')
 // console.log(a2.substring(2,16)+'---'+'Метод substring')
-// console.log('Substr устарел')
+// console.log(a2.substr(2,14)+'---'+'Метод substr')
 
 // //task_4
 // let a3=[4, 2, 5, 19, 13, 0, 10],

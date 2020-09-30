@@ -69,3 +69,19 @@
 // let email = prompt('Введите ваш email');
 //  let regexp = /[0-9a-zA-Z._-]{2,}@[._-a-zA-Z].[a-z]{2,11}/gi;
 //  console.log(regexp.test(email));
+
+
+// Задание 10
+// function gridIndex(grid, indices) {
+//     const arr = grid.flat();
+//     return indices.map(item => arr[item-1]).join('');
+//   }
+
+
+// Задание 11
+// function testit(a,b){
+//     const A = [...new Set(a)];
+//     const B = [...new Set(b)];
+    
+//     return A.concat(B).sort((a, b) => a - b);
+//   }

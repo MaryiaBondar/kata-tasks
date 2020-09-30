@@ -40,16 +40,16 @@
 // alert(c);
 
 // Задача 6 
-// let date = new Date();
-// function getZero(num){
-// 	if (num > 0 && num < 10) { 
-// 		return '0' + num;
-// 	} else {
-// 		return num;
-// 	}
-// }
+let date = new Date();
+function getZero(num){
+	if (num > 0 && num < 10) { 
+		return '0' + num;
+	} else {
+		return num;
+	}
+}
 
-// alert(date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ' ' + getZero(date.getDate()) + '.' + getZero(date.getMonth() + 1) + '.' + date.getFullYear());
+alert(date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ' ' + getZero(date.getDate()) + '.' + getZero(date.getMonth() + 1) + '.' + date.getFullYear());
 
 // Задача 7 
 // let str = 'aa aba abba abbba abca abea';
@@ -59,6 +59,6 @@
 
 // Задача 8 
 
-let phone = prompt('Ваш номер телефона?');
-let regexp = /[+375]&[017]{9}/gi;
-console.log(regexp.test(phone)); // Я пытался....
+// let phone = prompt('Ваш номер телефона?');
+// let regexp = /[+375]&[017]{9}/gi;
+// console.log(regexp.test(phone)); // Я пытался....

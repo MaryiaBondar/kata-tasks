@@ -1,4 +1,3 @@
-
 let Calc = function() { this.get = function() {
                         this.a = +prompt('введите число а');
                        this.b = +prompt('введите число b');

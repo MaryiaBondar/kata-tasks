@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Задание 1
 // let str = 'aaa@bbb@ccc';
 // alert(str.replace(/@/g, '!'));
@@ -62,3 +63,13 @@ alert(date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ' ' 
 // let phone = prompt('Ваш номер телефона?');
 // let regexp = /[+375]&[017]{9}/gi;
 // console.log(regexp.test(phone)); // Я пытался....
+=======
+
+const a = [1, 1, 1,  3, 7, 8]
+
+
+
+console.log(
+    a.reduce((acc, item) => acc.includes(item) ? (acc) : [...acc, item], [])
+)
+>>>>>>> aaec360627cd1fd4072163a98af6d940e62d64d9

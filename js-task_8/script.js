@@ -1,5 +1,4 @@
 
-
 let title = document.createElement('title');
 title.innerHTML = 'Widget';
 document.head.appendChild(title);
@@ -30,68 +29,59 @@ let p1 = document.createElement('p');
 p1.innerHTML = 'But I must explain to you how all this mistaken idea of denouncing';
 document.body.appendChild(p1);
 
-
-/*
 let container = document.createElement('div');
 container.classList.add('content');
 document.body.appendChild(container);
-*/
 
-
-let div1 = document.createElement('div');
-div1.classList.add('block');
-document.body.appendChild(div1);
-
+let mainLeft = document.createElement('div'); 
+mainLeft.classList.add('mainLeft');
+container.appendChild(mainLeft);
 
 let freelance = document.createElement('h4');
 freelance.innerHTML = 'FREELANCER';
 freelance.classList.add('freelance');
-document.body.appendChild(freelance);
-div1.appendChild(freelance)
+mainLeft.appendChild(freelance);
 
 let h2 = document.createElement('h2');
 h2.innerHTML = 'Initially designed to';
-document.body.appendChild(h2);
-div1.appendChild(h2)
+h2.classList.add('h2');
+mainLeft.appendChild(h2);
 
-let p2 = document.createElement('p2');
+let p2 = document.createElement('p');
 p2.innerHTML = 'But I must explain to you how all this mistaken idea of denouncing';
-document.body.appendChild(p2);
-div1.appendChild(p2)
+p2.classList.add('p2');
+mainLeft.appendChild(p2);
 
 let buttonLeft = document.createElement('button');
 buttonLeft.innerHTML = 'START HERE';
-document.body.appendChild(buttonLeft)
-div1.appendChild(buttonLeft)
+buttonLeft.classList.add('buttonLeft');
+mainLeft.appendChild(buttonLeft);
 
-/*
-let div2 = document.createElement('div');
-div1.classList.add('block');
-document.body.appendChild(div2);
-
+let mainRight = document.createElement('div');
+mainRight.classList.add('mainRight');
+container.appendChild(mainRight);
 
 let studio = document.createElement('h4');
 studio.innerHTML = 'STUDIO';
-studio.classList.add('h4');
-document.body.appendChild(studio);
-div2.appendChild(studio);
+studio.classList.add('studio');
+mainRight.appendChild(studio);
 
+let h2r = document.createElement('h2');
+h2r.innerHTML = 'Initially designed to';
+h2r.classList.add('h2r');
+mainRight.appendChild(h2r);
 
-let h2_2 = document.createElement('h2');
-h2.innerHTML = 'Initially designed to';
-document.body.appendChild(h2_2);
-div2.appendChild(h2_2);
+let p2r = document.createElement('p');
+p2r.innerHTML = 'But I must explain to you how all this mistaken idea of denouncing';
+p2r.classList.add('p2r');
+mainRight.appendChild(p2r);
 
-let p3 = document.createElement('p');
-p2.innerHTML = 'But I must explain to you how all this mistaken idea of denouncing';
-document.body.appendChild(p3);
-div2.appendChild(p3);
-
-let buttonRight= document.createElement('button');
+let buttonRight = document.createElement('button');
 buttonRight.innerHTML = 'START HERE';
-document.body.appendChild(buttonRight)
-div2.appendChild(buttonRight);
-*/
+buttonRight.classList.add('buttonRight');
+mainRight.appendChild(buttonRight);
+
+
 
 let style = document.createElement('style');
 style.innerHTML = `
@@ -113,13 +103,10 @@ p {
     line-height: 26px;
     text-align: center;
     color: #9FA3A7;
+    padding-bottom: 3%;
 }
 
-.block_content {
-    display: flex;
-    justify-content: center;
-
-.freelance h4 {
+.freelance {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -127,6 +114,136 @@ p {
     line-height: 15px;
     letter-spacing: 2.4px;
     color: #9FA3A7;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.h2 {
+    padding-top: 20px;
+    max-width: 210px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 auto;
+    text-align: center;
+    color: #212121;
+}
+
+
+.p2 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-width: 210px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0 auto;
+    color: #9FA3A7;
+}
+
+.buttonLeft {
+    width: 147px;
+    height: 46px;
+    left: 14.5px;
+    top: 8.5px;
+    border-radius: 30px;
+    border: 3px solid #FFC80A;         
+    background-color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    color: #212121;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10%;
+}
+
+
+.mainLeft {
+    width: 50%;
+}
+
+
+.studio {
+    padding-top: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    color: #FFC80A;
+}
+
+.h2r {
+    padding-top: 20px;
+    max-width: 210px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p2r {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-width: 210px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buttonRight {
+    width: 147px;
+    height: 46px;
+    left: 14.5px;
+    top: 8.5px;
+    border-radius: 30px;
+    border: 3px solid #FFC80A;  
+    background: #8F75BE;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10%;
+}
+
+
+.mainRight {
+    width: 50%;
+    background-color: #8F75BE;
+}
+
+.content {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
 }
 
 `;

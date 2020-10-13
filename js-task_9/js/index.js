@@ -29,7 +29,6 @@ function newElement() {
   let t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-  alert('Пустая строка!');
   } else {
     document.getElementById('check-list').appendChild(li);
   }

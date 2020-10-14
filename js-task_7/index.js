@@ -44,26 +44,25 @@
 
 // Лампочка
 
-// let Lamp = function(){
-//     this.setInfo=function(){
-//         this.a=+prompt("Введите вольтаж лампочки в ваттах");
-//         this.b=+prompt("Введите сколько часов будет работать лампочка");
-//         this.c=+prompt("Введите стоимость одного киловатта через точку: 0.2090");
+let Lamp = function(){
+    this.setInfo=function(){
+        this.a=+prompt("Введите вольтаж лампочки в ваттах");
+        this.b=+prompt("Введите сколько часов будет работать лампочка");
+        this.c=+prompt("Введите стоимость одного киловатта через точку: 0.2090");
         
-//         this.consumption()
-//     }
-//     this.consumption=function(){ 
-//         this.d=this.a/1000  //Расход лампочки в киловатт 
-//         this.result=(this.d*this.b)*this.c
-//         this.show()
-//     }
-//     this.show=function(){
-//         alert(`Ваша лампочка тратит в час ${this.d} киловатт. За ${this.b} часов она в сумме ${Math.ceil(this.d*this.b)} киловатт, что будет вам примерно стоить ${Math.ceil(this.result)} рубля`)
-//     }
-// }
+        this.consumption()
+    }
+    this.consumption=function(){ 
+        this.d=this.a/1000  //Расход лампочки в киловатт 
+        this.result=(this.d*this.b)*this.c
+        this.show()
+    }
+    this.show=function(){
+        alert(`Ваша лампочка тратит в час ${this.d} киловатт. За ${this.b} часов она в сумме ${this.d*this.b} киловатт, что будет вам примерно стоить ${Math.round(this.result)} рубля`)
+    }
+}
 
-// let lamp = new Lamp;
-// lamp.setInfo()
+let lamp = new Lamp;
+lamp.setInfo()
 
 
-//

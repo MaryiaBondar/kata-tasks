@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body></body>
 </html>
